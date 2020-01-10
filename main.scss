@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-family: Comic Sans MS;
+        font-size: 20px;
+        padding: 14px 16px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #111;
+        }
+    }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(http://www.pptback.com/uploads/curves-blue-and-white-half-circle-backgrounds-powerpoint.jpg);
+}
+
+.container {
+    font-family: Comic Sans MS;
+    display: flex;
+    top: 80px;
+    position: relative;
+    padding: 2px 16px;
+}
+
+.card {
+    align-items: flex-end;
+    transition: 0.3s;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Comic Sans MS;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid grey;
+
+    &:hover {
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+}
+
+a.button1 {
+    font-size: 18px;
+    text-decoration: none;
+    border: #ac9494 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background: blue;
+        color: #fff;
+    }
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+    font-family: Comic Sans MS;
+}
+
+.head-style {
+    float: left;
+}
